@@ -1,6 +1,8 @@
 // this creates a prompt named "What is your robots name"
 
 var playerName =  window.prompt("What is your robots name");
+// Note the lack of quotation marks around  playerName
+window.alert(playerName);
 
 
 
@@ -11,5 +13,4 @@ var playerName =  window.prompt("What is your robots name");
 function fight() {
     window.alert("The fight has begun!");
   }
-  fight();
-  
+  // fight();
